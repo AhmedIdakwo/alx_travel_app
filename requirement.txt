@@ -1,0 +1,17 @@
+
+### Step 1: Project and App Setup
+
+```bash
+# Create project folder and navigate into it
+mkdir alx_travel_app && cd alx_travel_app
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install Django and initialize project and app
+pip install django
+django-admin startproject alx_travel_app .
+python manage.py startapp listings
+```
+
